@@ -9,11 +9,12 @@ FROM php:8.1-apache
 LABEL maintainer="François Jacquet <francoisjacquet@users.noreply.github.com>"
 
 ENV PGHOST=db \
-    PGUSER=isaruser \
-    PGPASSWORD=isar34pwd \
+    PGUSER=rosario \
+    PGPASSWORD=rosariopwd \
     PGDATABASE=rosariosis \
     PGPORT=5432 \
     ROSARIOSIS_YEAR=2022 \
+    ROSARIOSIS_ADMIN_EMAIL="admin@example.org" \
     ROSARIOSIS_LANG='en_US'
 
 # Upgrade packages.
