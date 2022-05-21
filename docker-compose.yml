@@ -1,4 +1,3 @@
-# https://riptutorial.com/docker-compose
 version: '3.1'
 
 services:
@@ -23,3 +22,4 @@ services:
       PGDATABASE: ${DB_NAME:-rosariosis}
       ROSARIOSIS_YEAR: 2022
       ROSARIOSIS_LANG: ${SIS_LANG:-'en_US'}
+      ROSARIOSIS_ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@example.org}
